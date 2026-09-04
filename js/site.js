@@ -28,3 +28,12 @@ if (enquiryForm) {
     enquiryForm.reset();
   });
 }
+
+// Register Service Worker for performance caching & offline support
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker
+      .register("./sw.js")
+      .catch((err) => console.log("Service Worker registration failed:", err));
+  });
+}
