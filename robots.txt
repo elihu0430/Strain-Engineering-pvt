@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://strainengineeringpvt.vercel.app/sitemap.xml
+Sitemap: https://strainengineeringpvtltd.vercel.app/sitemap.xml
